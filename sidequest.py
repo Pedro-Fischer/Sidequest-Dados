@@ -2,7 +2,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 
-base_dados = pd.read_csv("Cópia de Base_despadronizada - Base_Corrigida.csv")
+base_dados = pd.read_csv("Sidequest-Dados\Cópia de Base_despadronizada - Base_Corrigida.csv")
 
 base_dados['sexo'] = base_dados['sexo'].str.strip().str.lower()
 
